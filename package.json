@@ -1,0 +1,29 @@
+{
+  "name": "brand-guardrails-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Reference implementation for the IMG.LY article on brand guardrails for AI-generated marketing assets (CE.SDK)",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "check:syntax": "tsc --noEmit",
+    "setup:stream": "node scripts/setup-stream.ts"
+  },
+  "dependencies": {
+    "@cesdk/cesdk-js": "^1.82.1",
+    "@imgly/plugin-ai-generation-web": "^1.82.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@stream-io/node-sdk": "^0.8.8",
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.0.0",
+    "vite": "^6.0.3"
+  },
+  "private": true
+}

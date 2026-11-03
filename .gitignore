@@ -1,0 +1,19 @@
+# Environment variables
+.env.local
+.env
+
+# Build output
+dist/
+node_modules/
+
+# TypeScript incremental build info
+tsconfig.tsbuildinfo
+
+# CE.SDK engine assets, downloaded per README (large)
+public/assets/
+
+# Playwright MCP scratch
+.playwright-mcp/
+
+# Local agent and preview config
+.claude/
